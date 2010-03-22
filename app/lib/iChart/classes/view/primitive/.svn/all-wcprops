@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1/app/lib/iChart/classes/view/primitive
+END
+Primitive.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1/app/lib/iChart/classes/view/primitive/Primitive.php
+END
+Rectangle.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1/app/lib/iChart/classes/view/primitive/Rectangle.php
+END
+Padding.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1/app/lib/iChart/classes/view/primitive/Padding.php
+END
