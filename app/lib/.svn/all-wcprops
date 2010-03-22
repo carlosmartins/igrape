@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 23
+/svn/!svn/ver/1/app/lib
+END
+dummy.php
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/1/app/lib/dummy.php
+END
+iEncrypt.php
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/1/app/lib/iEncrypt.php
+END
+iConnect.php
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/1/app/lib/iConnect.php
+END
+dataElement.php
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/1/app/lib/dataElement.php
+END
+iTemplate.php
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/1/app/lib/iTemplate.php
+END

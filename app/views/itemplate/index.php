@@ -1,0 +1,1 @@
+Testando o {name} lib do {framework}.
