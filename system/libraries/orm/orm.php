@@ -18,7 +18,7 @@
  * @subpackage	orm
  * @category	ORM
  * @author		iGrape Dev Team
- * @link		http://code.google.com/p/igrape/wiki/UserGuide
+ * @link		http://wiki.github.com/avelino/igrape/user-guide
  */
 
 class ORM {
