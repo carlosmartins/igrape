@@ -270,7 +270,10 @@ function json($type,$json){
 
 function brouser(){ 
 	$nav = $_SERVER["HTTP_USER_AGENT"];
-	if(ereg("Mozilla", $nav))
+	if(ereg("Chrome", $nav))
+	{
+		$navegador = "gc";
+	}elseif(ereg("Mozilla", $nav))
 	{
 		$navegador = "ff";
 	}elseif(ereg("Opera", $nav))
