@@ -15,8 +15,8 @@
  * Loads the base classes and executes the request.
  *
  * @package		iGrape
- * @subpackage	        conf
- * @category	        Front-controller
+ * @subpackage	conf
+ * @category	Front-controller
  * @author		iGrape Dev Team
  * @link		http://code.google.com/p/igrape/wiki/UserGuide
  */

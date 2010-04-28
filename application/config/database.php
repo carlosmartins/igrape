@@ -28,10 +28,10 @@
 	$ORM->pass 		= 'dbMppl0809';
 	$ORM->encode 	= 'utf8';*/
 
-$db['developer']['driver'] 		= '';
-$db['developer']['host'] 		= '';
+$db['developer']['driver'] 		= 'mysql';
+$db['developer']['host'] 		= 'localhost';
 $db['developer']['name'] 		= '';
-$db['developer']['user'] 		= '';
+$db['developer']['user'] 		= 'root';
 $db['developer']['pass'] 		= '';
 $db['developer']['encode'] 		= 'utf8';
 ?>

@@ -51,7 +51,6 @@ define("OS",		"lin");
 */
 define("SYS",				"system");
 define("APP",				"application");
-define("CACHE",				"cache");
 define("DS",				"/");
 
 /*
@@ -66,7 +65,6 @@ define('EXT',				'.php');
 define('EXTPL',				'.theme.php');
 define('APPBASE',			is_dir(APP.DS)?APP.DS:"application"."/");
 define('SYSBASE',			is_dir(SYS.DS)?SYS.DS:"system"."/");
-define('CACHEBASE',			is_dir(CACHE.DS)?CACHE.DS:"cache"."/");
 define('CONFBASE',			APPBASE.'config'.DS);
 define('MODELSBASE',		APPBASE.'models'.DS);
 define('LIB',				SYSBASE.'libraries'.DS);
