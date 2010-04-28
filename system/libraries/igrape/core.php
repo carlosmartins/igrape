@@ -4,7 +4,7 @@
  *
  * @category	iGrape
  * @author		iGrape Dev Team
- * @copyright	Copyright (c) 2007-2010 iGrape Inc. (http://www.igrape.org)
+ * @copyright	Copyright (c) 2007-2010 Chierry Inc. (http://www.igrape.org)
  * @license		/LICENSE.txt New BSD License
  * @version		$Id: core.php 10096 2010-03-08 14:05:09Z $
  *
@@ -18,7 +18,7 @@
  * @subpackage	core
  * @category	Front-controller
  * @author		iGrape Dev Team
- * @link		http://code.google.com/p/igrape/wiki/UserGuide
+ * @link		http://wiki.github.com/avelino/igrape/user-guide
  */
 
 // iGrape Framework Version
