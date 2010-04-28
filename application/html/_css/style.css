@@ -1,0 +1,67 @@
+/* ------------------------------------------------------------ */
+/*
+
+	iGrapre Framework
+	Version: 1.0
+	
+*/
+/* ------------------------------------------------------------ */
+
+
+/* Imports
+--------------------------------------------------------------- */
+
+	@import url("/application/html/_css/reset.css");
+	
+
+/* BASE
+--------------------------------------------------------------- */
+
+	body, html { margin: 0; padding: 0;}
+	body { background-color: #EEF1ED;}
+
+	
+/* TYPO
+--------------------------------------------------------------- */
+
+	body { font: 82.5% "Trebuchet MS", Tahoma, Helvetica, Arial, sans-serif; color: #333; }
+
+
+/* HELPERS
+--------------------------------------------------------------- */	
+
+	.clear { clear: both;}
+	.left { float: left;}
+	.right { float: right;}
+	
+	.wrap { width: 908px; margin: 0 auto;}
+	
+/* CONTAINER
+--------------------------------------------------------------- */
+
+	.container { width: 890px; height: 400px; margin-top: 50px; background-color: #fff; -moz-box-shadow: 1px 1px 3px #ccc; -moz-border-radius-topleft: 7px; -webkit-border-top-left-radius: 7px; -moz-border-radius-topright: 7px; -webkit-border-top-right-radius: 7px; -moz-border-radius-bottomleft: 7px; -webkit-border-bottom-left-radius: 7px; -moz-border-radius-bottomright: 50px; -webkit-border-bottom-right-radius: 50px; padding: 30px;
+}
+	
+	.container .title { border-bottom: #EEF1ED solid 1px; margin: -30px -30px 20px -30px; padding: 30px; }
+
+	.container .typer { float: left; margin: -13px 0 0 20px;
+	}
+	
+/* ICONS
+--------------------------------------------------------------- */
+
+	.ok_tt { width: 118px; height: 118px; background: url(../../html/_imagens/content/OK.gif) no-repeat; float: left; }
+	
+	
+/* TITLES
+--------------------------------------------------------------- */
+
+	h1 {font: 80px Georgia, "Times New Roman", Times, serif; color: #663366;}
+	h2 {font: 50px Georgia, "Times New Roman", Times, serif; color: #663366;}
+	h3 {font: 30px Georgia, "Times New Roman", Times, serif; color: #B299B2;}
+	
+	
+/* FOOTER
+--------------------------------------------------------------- */
+
+	.footer { width: 950px; background: url(../../html/_imagens/content/logo_footer.gif) no-repeat; height: 80px; margin-top: 10px;}
