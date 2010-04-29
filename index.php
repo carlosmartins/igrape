@@ -66,7 +66,7 @@ define('EXT',				'.php');
 define('EXTPL',				'.theme.php');
 define('APPBASE',			is_dir(APP.DS)?APP.DS:"application"."/");
 define('SYSBASE',			is_dir(SYS.DS)?SYS.DS:"system"."/");
-define('CACHEBASE',			is_dir(CACHE.DS)?CACHE.DS:"system"."/");	
+define('CACHEBASE',			is_dir(CACHE.DS)?CACHE.DS:"cache"."/");	
 define('CONFBASE',			APPBASE.'config'.DS);
 define('MODELSBASE',		APPBASE.'models'.DS);
 define('LIB',				SYSBASE.'libraries'.DS);
@@ -91,7 +91,7 @@ if(defined('CGI')) {
 $sn = dirname($_SERVER['SCRIPT_NAME']);
 if($sn != "/") $sn .= '/';
 
-define('WEBROOT',			$sn);
+define('WEBROOT',				$sn);
 define('LOGOUT_TRIGGER',		"logout");
 
 
