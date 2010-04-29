@@ -5,7 +5,7 @@
  * @category	iGrape
  * @author		iGrape Dev Team
  * @copyright	Copyright (c) 2007-2010 Chierry Inc. (http://www.igrape.org)
- * @license		/LICENSE.txt New BSD License
+ * @license		LICENSE New BSD License
  * @version		$Id: index.php 10096 2010-03-08 14:05:09Z $
  */
 
@@ -23,7 +23,7 @@ session_start();
 error_reporting(E_ALL);
 ini_set('display_errors',1);
 set_time_limit(0);
-//ignore_user_abort();
+ignore_user_abort();
 
 /*
 |-------------------------------------------------------------
