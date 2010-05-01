@@ -102,7 +102,7 @@ function imgW($file, $attrs ='') {
 	return "<img src=\"".$file."\" ".$attrs." />\n";
 }
 
-function pathinfo$file) {
+function pathimg($file) {
 	return APPBASE."html/_imagens/".$file;
 }
 
