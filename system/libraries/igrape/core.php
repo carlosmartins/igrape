@@ -146,9 +146,7 @@ class iGrape {
 		else
 			$_controller->missing();
 		
-		AppController::before();
-			$_controller->render();
-		AppController::after();
+		$_controller->render();
 	}
 	
 	function loadModel($name)

@@ -20,6 +20,7 @@ class Controller {
 
 	public function render($_action = null)
 	{
+		AppController::before();
 		if(!$_action)
 			$_action = $this->action;
 
@@ -33,6 +34,7 @@ class Controller {
 		{			
 			iGrape::renderFile($_view, $this->layout, $this->data);
 		}
+		AppController::after();
 	}
 
 	public function __set($name, $value)
