@@ -98,8 +98,11 @@ function table($array,$style=NULL){
 function img($file, $attrs ='') {
 	return "<img src=\"".APPBASE."html/_imagens/".$file."\" ".$attrs." />\n";
 }
+function imgW($file, $attrs ='') {
+	return "<img src=\"".$file."\" ".$attrs." />\n";
+}
 
-function pathimg($file) {
+function pathinfo$file) {
 	return APPBASE."html/_imagens/".$file;
 }
 
