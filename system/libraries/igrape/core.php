@@ -118,7 +118,6 @@ class iGrape {
 		{
 			iGrape::invalidModel();
 		}
-		//$_model->$testtttt;
 		
 		// Instantiate the controller
 		$_controller = iGrape::loadController($args[0]);
@@ -146,8 +145,10 @@ class iGrape {
 			call_user_func_array(array(&$_controller, $_controller->action), $_controller->argv);
 		else
 			$_controller->missing();
-			
-		$_controller->render();
+		
+		AppController::before();
+			$_controller->render();
+		AppController::after();
 	}
 	
 	function loadModel($name)
