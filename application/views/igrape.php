@@ -3,7 +3,7 @@
 <head>
 <title>iGrape is Running</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<?=favicon()?>
+<?=favicon("content/logo_footer.gif")?>
 <?=css("style.css")?>
 </head>
 <body>
